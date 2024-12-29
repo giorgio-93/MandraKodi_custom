@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/filter.php
