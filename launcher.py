@@ -1029,8 +1029,8 @@ def updateCode(parIn):
         local_vers = re.findall("versione='(.*)'",resolver_content)[0]
         logga('local_vers '+local_vers)
 
-
-        remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
+        remoteLauncherUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/myResolver.py"
+        #remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
         strSource = makeRequest(remoteLauncherUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteLauncherUrl)
