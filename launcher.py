@@ -759,7 +759,8 @@ def reloadDefault():
     timeUnix=os.path.getmtime(defualt_file)
     logga('TIME FILE '+str(timeUnix))
     if (timeUnix < 1637834000):
-        remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/default.py"
+        remoteResolverUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/default.py"
+        #remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/default.py"
         strSource = makeRequest(remoteResolverUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteResolverUrl)
@@ -999,8 +1000,8 @@ def updateCode(parIn):
         local_vers = re.findall("versione='(.*)'",resolver_content)[0]
         logga('local_vers '+local_vers)
 
-
-        remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/launcher.py"
+        remoteLauncherUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/launcher.py"
+        #remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/launcher.py"
         strSource = makeRequest(remoteLauncherUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteLauncherUrl)
