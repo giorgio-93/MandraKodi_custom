@@ -759,8 +759,7 @@ def reloadDefault():
     timeUnix=os.path.getmtime(defualt_file)
     logga('TIME FILE '+str(timeUnix))
     if (timeUnix < 1637834000):
-        remoteResolverUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/default.py"
-        #remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/default.py"
+        remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/default.py"
         strSource = makeRequest(remoteResolverUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteResolverUrl)
@@ -843,8 +842,7 @@ def checkResolver():
             pass
         logga('Resolver_local_vers '+local_vers)
         
-        remoteLauncherUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/myResolver.py"
-        #remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
+        remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
         strSource = makeRequest(remoteResolverUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteResolverUrl)
@@ -1001,8 +999,8 @@ def updateCode(parIn):
         local_vers = re.findall("versione='(.*)'",resolver_content)[0]
         logga('local_vers '+local_vers)
 
-        remoteLauncherUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/launcher.py"
-        #remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/launcher.py"
+
+        remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/launcher.py"
         strSource = makeRequest(remoteLauncherUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteLauncherUrl)
@@ -1030,8 +1028,8 @@ def updateCode(parIn):
         local_vers = re.findall("versione='(.*)'",resolver_content)[0]
         logga('local_vers '+local_vers)
 
-        remoteLauncherUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/myResolver.py"
-        #remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
+
+        remoteLauncherUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
         strSource = makeRequest(remoteLauncherUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteLauncherUrl)
@@ -1244,7 +1242,8 @@ def decodeSkinViewMode (mySkin='', viewMode=''):
 
 def personalList(listtType=''):
     import json
-    baseScript = makeRequest("https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/data/enterScrip.txt")
+    baseScript = makeRequest("https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/enterScript.txt")
+    #baseScript = makeRequest("https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/data/enterScrip.txt")
     if baseScript is None or baseScript == "":
         logga('We failed to get source from serverSource')
         
