@@ -2,76 +2,107 @@
    "SetViewMode":"55",
    "items":[
       {
-         "title":"[COLOR gold]=== === === [COLOR lime]Benvenuto su Mandrakodi 2.0[/COLOR] === === ===[/COLOR]",
-         "link":"ignoreme",
+         "title":"[COLOR yellow]=== === === Benvenuto su Mandrakodi 2.0 === === ===[/COLOR]",
+         "externallink":"https://test34344.herokuapp.com/test36.php",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
          "info":"Disclaimer"
+      },
+      {
+         "title":"[COLOR lime]Il gruppo [B]MandraKodiHelp[/B] e' stato bannato da Telegram.[/COLOR]",
+         "link":"ignoreme",
+         "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
+         "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
+         "info":"Disclaimer",
+         "enabled":1
+      },
+      {
+         "title":"[COLOR lime]Per continuare ad usare l'addon, devi [B]unirti[/B] a questo nuovo gruppo[/COLOR]",
+         "link":"ignoreme",
+         "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
+         "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
+         "info":"Disclaimer",
+         "enabled":1
+      },
+      {
+         "title":"[COLOR lime]@mandrakodi_support[/COLOR]",
+         "link":"ignoreme",
+         "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
+         "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
+         "info":"Disclaimer",
+         "enabled":1
       },
       {
          "title":"[COLOR lime]I contenuti proposti da Mandrakodi sono di carattere [B]Gratuito[/B].[/COLOR]",
          "link":"ignoreme",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer"
+         "info":"Disclaimer",
+         "enabled":0
       },
       {
          "title":"[COLOR lime]Mandrakodi e' un [B]contenitore[/B] che, per praticità, raccoglie ciò[/COLOR]",
          "link":"ignoreme",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer"
+         "info":"Disclaimer",
+         "enabled":0
       },
       {
          "title":"[COLOR lime]che gia' esiste in rete, attraverso l'uso di [B]BOT automatici[/B].[/COLOR]",
          "link":"ignoreme",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer"
+         "info":"Disclaimer",
+         "enabled":0
       },
       {
          "title":"[COLOR lime][B]Nessun[/B] contenuto e'presente nell'addon o sui server dei Bot.[/COLOR]",
          "link":"ignoreme",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer"
+         "info":"Disclaimer",
+         "enabled":0
       },
       {
          "title":"[COLOR lime]Tutti i contenuti si intendono coperti da copyright dei rispettivi[/COLOR]",
          "link":"ignoreme",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer"
+         "info":"Disclaimer",
+         "enabled":0
       },
       {
          "title":"[COLOR lime]proprietari che in qualunque momento possono richiederne[/COLOR]",
          "link":"ignoreme",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer"
+         "info":"Disclaimer",
+         "enabled":0
       },
       {
          "title":"[COLOR lime]la rimozione, inviando una mail a [B]bnilcxmz@hi2.in[/B][/COLOR]",
          "link":"ignoreme",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer"
+         "info":"Disclaimer",
+         "enabled":0
       },
       {
-         "title":"[COLOR orange]====== ENTRA IN MANDRAKODI ADDON ======[/COLOR]",
+         "title":"[COLOR yellow]====== ENTRA IN MANDRAKODI ADDON ======[/COLOR]",
+         "externallink":"http://mandrakodi.unaux.com/filter.php",
+         "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
+         "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
+         "info":"Disclaimer",
+         "enabled":0
+      },
+      {
+         "title":"[COLOR blue]====== ENTER MANDRAKODI ADDON ======[/COLOR]",
          "externallink":"https://test34344.herokuapp.com/filter.php",
          "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
          "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
          "info":"Disclaimer",
-		 "enabled":0
-      },
-      {
-         "title":"[COLOR blue]====== ENTRA IN MANDRAKODI ADDON ======[/COLOR]",
-         "externallink":"https://bkp34344.herokuapp.com/filter.php",
-         "thumbnail":"https://wallup.net/wp-content/uploads/2016/01/169419-bears-animals.jpg",
-         "fanart":"https://sfondo.info/i/original/e/e/a/4613.jpg",
-         "info":"Disclaimer",
-		 "enabled":1
+         "enabled":1
       }
    ]
 }
