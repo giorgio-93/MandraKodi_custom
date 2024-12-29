@@ -843,7 +843,8 @@ def checkResolver():
             pass
         logga('Resolver_local_vers '+local_vers)
         
-        remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
+        remoteLauncherUrl = "https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/myResolver.py"
+        #remoteResolverUrl = "https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/myResolver.py"
         strSource = makeRequest(remoteResolverUrl)
         if strSource is None or strSource == "":
             logga('We failed to get source from '+remoteResolverUrl)
@@ -1243,7 +1244,8 @@ def decodeSkinViewMode (mySkin='', viewMode=''):
 
 def personalList(listtType=''):
     import json
-    baseScript = makeRequest("https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/data/enterScrip.txt")
+    baseScript = makeRequest("https://raw.githubusercontent.com/giorgio-93/MandraKodi_custom/refs/heads/main/enterScript.txt")
+    #baseScript = makeRequest("https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/data/enterScrip.txt")
     if baseScript is None or baseScript == "":
         logga('We failed to get source from serverSource')
         
